@@ -18,12 +18,9 @@ const Navbar = () => {
       ref3.current.classList.remove("border-b-4");
       ref4.current.classList.remove("border-b-4");
       ref5.current.classList.remove("border-b-4");
-    } 
-    
-    
-    
-  }
-  const clickToggle2 = () =>{
+    }
+  };
+  const clickToggle2 = () => {
     if (!ref2.current.classList.contains("border-b-4")) {
       ref.current.classList.remove("border-b-4");
       ref2.current.classList.add("border-b-4");
@@ -31,8 +28,8 @@ const Navbar = () => {
       ref4.current.classList.remove("border-b-4");
       ref5.current.classList.remove("border-b-4");
     }
-  }
-  const clickToggle3 = () =>{
+  };
+  const clickToggle3 = () => {
     if (!ref3.current.classList.contains("border-b-4")) {
       ref.current.classList.remove("border-b-4");
       ref2.current.classList.remove("border-b-4");
@@ -40,8 +37,8 @@ const Navbar = () => {
       ref4.current.classList.remove("border-b-4");
       ref5.current.classList.remove("border-b-4");
     }
-  }
-  const clickToggle4 = () =>{
+  };
+  const clickToggle4 = () => {
     if (!ref4.current.classList.contains("border-b-4")) {
       ref.current.classList.remove("border-b-4");
       ref2.current.classList.remove("border-b-4");
@@ -49,8 +46,8 @@ const Navbar = () => {
       ref4.current.classList.add("border-b-4");
       ref5.current.classList.remove("border-b-4");
     }
-  }
-  const clickToggle5 = () =>{
+  };
+  const clickToggle5 = () => {
     if (!ref5.current.classList.contains("border-b-4")) {
       ref.current.classList.remove("border-b-4");
       ref2.current.classList.remove("border-b-4");
@@ -58,17 +55,17 @@ const Navbar = () => {
       ref4.current.classList.remove("border-b-4");
       ref5.current.classList.add("border-b-4");
     }
-  }
+  };
   const ref = useRef();
   const ref2 = useRef();
   const ref3 = useRef();
   const ref4 = useRef();
   const ref5 = useRef();
   return (
-    <div className="bg-[#242526]">
+    <div className="bg-[#242526] fixed top-0 left-0 right-0 z-10">
       <div className="flex justify-between items-center mx-5">
         <div className="flex my-2">
-          <div>
+          <div className="cursor-pointer">
             <Image src={"/facebook-logo.png"} alt="" height={45} width={45} />
           </div>
           <div>
@@ -81,36 +78,48 @@ const Navbar = () => {
         </div>
         <div className="my-1">
           <ul className="flex text-[#b0b3b8] text-3xl">
-            <div ref={ref} className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]" title="Home"  onClick={clickToggle}  >
-              <Link href={"/"}>
-                <AiOutlineHome />
-              </Link>
-            </div>
-            <Link ref={ref2}
+            <Link
+              href={"/"}
+              ref={ref}
+              className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
+              title="Home"
+              onClick={clickToggle}
+            >
+              <AiOutlineHome />
+            </Link>
+            <Link
+              ref={ref2}
               href={"/"}
               className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
-              title="Watch" onClick={clickToggle2} 
+              title="Watch"
+              onClick={clickToggle2}
             >
               <MdOutlineOndemandVideo />
             </Link>
-            <Link ref={ref3}
+            <Link
+              ref={ref3}
               href={"/"}
               className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
-              title="Marketplace" onClick={clickToggle3} 
+              title="Marketplace"
+              onClick={clickToggle3}
             >
               <BsShop />
             </Link>
-            <Link ref={ref4}
+            <Link
+              ref={ref4}
               href={"/"}
-              className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]" 
-              title="Groups" onClick={clickToggle4} 
+              className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
+              title="Groups"
+              onClick={clickToggle4}
             >
               <MdOutlineGroups />
             </Link>
-            <Link ref={ref5}
+            <Link
+              ref={ref5}
               href={"/"}
               className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
-              title="Gaming" onClick={clickToggle5} 
+              title="Gaming"
+              onClick={clickToggle5}
             >
               <TbDeviceGamepad />
             </Link>
