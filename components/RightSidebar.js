@@ -2,7 +2,6 @@ import React from "react";
 import { RiVideoAddFill } from "react-icons/ri";
 import { BsSearch } from "react-icons/bs";
 import { HiDotsHorizontal } from "react-icons/hi";
-import { GoPrimitiveDot } from "react-icons/go";
 import Image from "next/image";
 
 const RightSidebar = () => {

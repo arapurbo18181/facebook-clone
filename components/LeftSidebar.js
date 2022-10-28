@@ -15,7 +15,7 @@ const LeftSidebar = () => {
               className=""
             />
           </div>
-          <div className="mx-3 mt-2">My Name</div>
+          <div className="mx-3 mt-2">John Wick</div>
         </div>
         <div className="mx-3 my-2 text-white flex cursor-pointer hover:bg-[#3a3b3c] px-3 py-2 rounded">
           <div className="w-11 h-11 rounded-full overflow-hidden cursor-pointer">
