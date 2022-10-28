@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const RightSidebar = () => {
   return (
-    <div className="fixed top-0 left-0 right-0">
+    <div className="fixed top-0 left-0 right-0 hidden lg:block">
       <div className="w-3/12 h-screen overflow-auto bg-[#18191a] absolute right-0 top-16 text-white px-1">
         <div className="flex justify-between my-2">
           <div className="cursor-pointer w-10 h-10 flex justify-center items-center ml-5">

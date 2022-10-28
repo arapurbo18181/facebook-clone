@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const LeftSidebar = () => {
   return (
-    <div className="fixed top-0 left-0 right-0">
+    <div className="fixed top-0 left-0 right-0 hidden lg:block">
       <div className="w-3/12 absolute left-0 top-16 overflow-y-auto scrollbar-hide inline-block h-screen bg-[#18191a]">
         <div className="mx-3 mt-4 text-white flex cursor-pointer hover:bg-[#3a3b3c] px-3 py-2 rounded">
           <div className="w-11 h-11 rounded-full overflow-hidden cursor-pointer flex justify-center items-center">

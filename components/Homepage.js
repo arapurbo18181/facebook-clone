@@ -12,9 +12,9 @@ const Homepage = () => {
   return (
     <div>
       <div className="container flex bg-[#18191a] justify-center items-center mt-16">
-        <div className="w-6/12 flex items-center flex-col h-full text-white">
+        <div className="w-screen lg:w-6/12 flex items-center flex-col h-full text-white">
           {/* Story, reels, rooms started */}
-          <div className="w-9/12 bg-[#242526] mt-4 rounded-lg">
+          <div className="w-full lg:w-9/12 bg-[#242526] mt-4 rounded-lg">
             <div className="flex justify-evenly pb-4 text-[#b0b3b8] border-b border-[#b0b3b8]">
               <div className="flex mt-4 cursor-pointer hover:bg-[#4e4f50] w-40 h-12 justify-center items-center rounded-lg">
                 <div className="mt-1 mx-1 text-xl">
@@ -150,7 +150,7 @@ const Homepage = () => {
           </div>
           {/* Story, reels, rooms ends */}
           {/* Status bar started */}
-          <div className="w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
+          <div className="w-full lg:w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
             <div className="flex justify-start mx-4 my-2 border-b py-2">
               <div className="w-11 h-11 rounded-full overflow-hidden cursor-pointer flex justify-center items-center relative">
                 <Image
@@ -198,7 +198,7 @@ const Homepage = () => {
           </div>
           {/* Status bar ends */}
           {/* Post 1 started */}
-          <div className="w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
+          <div className="w-full lg:w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
             <div className="flex justify-start mx-4 my-2 py-2">
               <div className="w-11 h-11 rounded-full overflow-hidden cursor-pointer flex justify-center items-center relative">
                 <Image
@@ -253,7 +253,7 @@ const Homepage = () => {
           {/* Post 1 ends */}
           {/* Post 2 Starts */}
 
-          <div className="w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
+          <div className="w-full lg:w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
             <div className="flex justify-start mx-4 my-2 py-2">
               <div className="w-11 h-11 rounded-full overflow-hidden cursor-pointer flex justify-center items-center relative">
                 <Image
@@ -313,7 +313,7 @@ const Homepage = () => {
           {/* Post 2 Ends */}
           {/* Post 3 Started */}
 
-          <div className="w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
+          <div className="w-full lg:w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
             <div className="flex justify-start mx-4 my-2 py-2">
               <div className="w-11 h-11 rounded-full overflow-hidden cursor-pointer flex justify-center items-center relative">
                 <Image
@@ -373,7 +373,7 @@ const Homepage = () => {
           {/* Post 3 Ends */}
           {/* Post 4 Started */}
 
-          <div className="w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
+          <div className="w-full lg:w-9/12 bg-[#242526] mt-4 rounded-lg py-2">
             <div className="flex justify-start mx-4 my-2 py-2">
               <div className="w-11 h-11 rounded-full overflow-hidden cursor-pointer flex justify-center items-center relative">
                 <Image
