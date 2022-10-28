@@ -84,7 +84,7 @@ const Navbar = () => {
               <Link
                 ref={ref}
                 href={"/"}
-                className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
+                className="hover:bg-[#3a3b3c] border-b-4 w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
                 title="Home"
                 onClick={clickToggle}
               >
@@ -92,7 +92,7 @@ const Navbar = () => {
               </Link>
               <Link
                 ref={ref2}
-                href={"/"}
+                href={"/watch"}
                 className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
                 title="Watch"
                 onClick={clickToggle2}
@@ -101,7 +101,7 @@ const Navbar = () => {
               </Link>
               <Link
                 ref={ref3}
-                href={"/"}
+                href={"/marketPlace"}
                 className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
                 title="Marketplace"
                 onClick={clickToggle3}
@@ -110,7 +110,7 @@ const Navbar = () => {
               </Link>
               <Link
                 ref={ref4}
-                href={"/"}
+                href={"/groups"}
                 className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
                 title="Groups"
                 onClick={clickToggle4}
@@ -119,7 +119,7 @@ const Navbar = () => {
               </Link>
               <Link
                 ref={ref5}
-                href={"/"}
+                href={"/gaming"}
                 className="hover:bg-[#3a3b3c] w-28 h-14 flex justify-center items-center rounded-lg border-[#2374e1]"
                 title="Gaming"
                 onClick={clickToggle5}
