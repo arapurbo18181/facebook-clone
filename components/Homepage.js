@@ -68,7 +68,7 @@ const Homepage = () => {
                     alt=""
                     height={100}
                     width={100}
-                    className=""
+                    className="h-full object-cover"
                   />
                   <div className="absolute w-full h-full bg-black top-0 left-0 opacity-10 hover:opacity-20"></div>
                 </div>
@@ -84,13 +84,13 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="h-40 w-24 rounded-lg overflow-hidden border border-black cursor-pointer relative">
-                <div className="hover:scale-105 transition-all duration-500">
+                <div className="hover:scale-105 h-full w-full transition-all duration-500">
                   <Image
                     src={"/story5.jpg"}
                     alt=""
                     height={100}
                     width={120}
-                    className=""
+                    className="h-full object-cover"
                   />
                   <div className="absolute w-full h-full bg-black top-0 left-0 opacity-10 hover:opacity-20"></div>
                 </div>
@@ -105,13 +105,13 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="h-40 w-24 rounded-lg overflow-hidden border border-black cursor-pointer relative">
-                <div className="hover:scale-105 transition-all duration-500">
+                <div className="hover:scale-105 h-full w-full transition-all duration-500">
                   <Image
                     src={"/story3.jpg"}
                     alt=""
                     height={100}
                     width={100}
-                    className=""
+                    className="h-full object-cover"
                   />
                   <div className="absolute w-full h-full bg-black top-0 left-0 opacity-10 hover:opacity-20"></div>
                 </div>
@@ -126,13 +126,13 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="h-40 w-24 rounded-lg overflow-hidden border border-black cursor-pointer relative">
-                <div className="relative hover:scale-105 transition-all duration-500">
+                <div className="relative hover:scale-105 h-full w-full transition-all duration-500">
                   <Image
                     src={"/story4.jpg"}
                     alt=""
                     height={100}
                     width={100}
-                    className="hover:"
+                    className="h-full object-cover"
                   />
                   <div className="absolute w-full h-full bg-black top-0 left-0 opacity-10 hover:opacity-20"></div>
                 </div>

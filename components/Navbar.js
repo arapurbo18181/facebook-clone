@@ -78,11 +78,11 @@ const Navbar = () => {
     <div>
       <div className="bg-[#242526] fixed top-0 left-0 right-0 z-10">
         <div className="flex justify-between items-center mx-5">
-          <div className="flex my-2">
-            <div className="cursor-pointer">
-              <Image src={"/facebook-logo.png"} alt="" height={45} width={45} />
+          <div className="flex justify-between my-2">
+            <div className="cursor-pointer flex-1 h-full w-full">
+              <Image className="" src={"/facebook-logo.png"} alt="" height={45} width={45} />
             </div>
-            <div>
+            <div className="flex-1">
               <input
                 className="bg-[#3a3b3c] hidden xl:block py-2 px-4 mx-2 rounded-full text-white w-64"
                 type="text"
